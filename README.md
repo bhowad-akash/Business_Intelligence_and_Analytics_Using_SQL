@@ -1,9 +1,7 @@
-# Create a README.md file with the content just crafted
 
-readme_content = """
-# 🧠 SQL-Based Exploratory Data Analysis Framework
+# 🧠 SQL-Based Exploratory Data Analysis
 
-This repository presents a structured suite of SQL scripts developed to perform comprehensive Exploratory Data Analysis (EDA) on a data warehouse. Each script is purpose-built to examine specific dimensions of data, ranging from schema discovery to detailed performance ranking. This suite reflects proficiency in SQL and demonstrates best practices for deriving business insights from relational databases.
+This repository presents a structured suite of SQL scripts developed to perform comprehensive Exploratory Data Analysis (EDA) on a data warehouse. Each script is purpose-built to examine specific dimensions of data, ranging from schema discovery to detailed performance ranking. This suite demonstrates best practices for deriving business insights from relational databases.
 
 ## 📁 Repository Structure
 
@@ -38,35 +36,3 @@ The analytical workflow is organized into the following key components:
 - Ranks products, subcategories, and customers based on performance metrics using window functions.
 - Identifies top and bottom performers to highlight trends and outliers.
 - Suitable for dashboarding, reporting, and targeted analysis.
-
-## 🧠 Technical Capabilities Demonstrated
-
-- Schema exploration via metadata queries
-- Multi-table joins and aggregation logic
-- Grouped analytical queries
-- Use of window functions for ranking and comparative metrics
-- Comprehensive summarization using `UNION ALL` constructs
-
-## ⚙️ Usage Guidelines
-
-1. Load the scripts into an SQL execution environment (compatible with SQLite or adaptable to others).
-2. Ensure the data schema aligns with the one referenced in the scripts (`gold.fact_sales`, `gold.dim_customers`, etc.).
-3. Execute scripts sequentially or selectively, depending on analysis requirements.
-4. Modify or extend queries to align with domain-specific business logic.
-
-## 🎓 Objective
-
-This suite is designed to:
-- Exhibit proficiency in structured query language for analytical purposes.
-- Support data-driven decision-making through reusable, modular SQL components.
-- Serve as a reference or starting point for professional SQL analysis in data-intensive environments.
-
-## 📬 Contact
-
-For queries, feedback, or collaboration opportunities, feel free to connect via GitHub Issues or direct message.
-"""
-
-readme_path = "/mnt/data/README.md"
-Path(readme_path).write_text(readme_content)
-
-readme_path
