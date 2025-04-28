@@ -1,5 +1,5 @@
 
-# 🧠 SQL-Based Exploratory Data Analysis
+# 🧠 SQL-Based Data Analytics
 
 This repository presents a structured suite of SQL scripts developed to perform comprehensive Exploratory Data Analysis (EDA) on a data warehouse. Each script is purpose-built to examine specific dimensions of data, ranging from schema discovery to detailed performance ranking. This suite demonstrates best practices for deriving business insights from relational databases.
 
