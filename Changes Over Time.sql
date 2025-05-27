@@ -1,4 +1,4 @@
--- Trends and Changes over Tinme
+-- Trends and Changes over Time
 
 -- Analysing Sales Performance over Time
 select year(order_date) as Year,

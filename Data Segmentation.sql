@@ -1,3 +1,5 @@
+use DataWarehouseAnalytics
+
 /* Data Segmentation
 
 Groups the data based on a specific range.
